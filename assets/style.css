@@ -10,7 +10,6 @@
     --lightGray: #EFD6EE;
     --grayishPink: #9D7B95;
     --darkPink: #4B243E;
-
     /* font */
     --title-fontSize: 25px;
     --paragraph-fontSize: 15px;
@@ -28,9 +27,7 @@ body {
     font-family: var(--fontFamily);
 }
 
-
 /* MOBILE */
-
 .main {
     display: flex;
     justify-content: center;
@@ -56,7 +53,6 @@ body {
     border-radius: .4rem;
     margin: 1rem;
     background-color: var(--darkPink);
-
 }
 
 h1 {
@@ -81,44 +77,20 @@ p {
     }
 
     .card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         width: 20%;
         height: 60%;
-        background-color: var(--white);
-        border-radius: .8rem;
     }
 
     .qrCode {
-        display: flex;
-        justify-content: center;
-        width: 90%;
         height: 60%;
-        border-radius: .4rem;
-        margin: 1rem;
-        background-color: var(--darkPink);
-
     }
 
     h1 {
-        font-size: var(--title-fontSize);
-        text-align: center;
-        width: 80%;
-        color: var(--darkPink);
         padding-bottom: .5rem;
-    }
-
-    p {
-        font-size: var(--paragraph-fontSize);
-        text-align: center;
-        width: 80%;
-        color: var(--grayishPink);
     }
 }
 
 /* FOOTER */
-
 .footer {
     position: relative;
     text-align: center;
